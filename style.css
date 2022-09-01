@@ -277,22 +277,60 @@ li{
     line-height: 30px;
 }
 
+/*  LINHA DA BORDA */
 .cont1 {
     border: 1px solid #667085;
     border-radius: 16px;
     
-    padding: 15px 50px 15px 50px;
-
+    padding-left: 30px;
+    padding-right: 320px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    margin-bottom: 30px;
 }
 
+/*  NOME DA VAGA */
 .titulo-vag1 {
+    display: flex;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    padding: 60px 00px 00px 10px;
+    
+    padding-bottom: 25px;
+}
+
+/*  DETALHES DA VAGA */
+.informacoes{
+    flex-direction:row;
+    color: #667085;
 }
 
 .sp {
-    padding: 10px;
-    color: #667085;
+    padding-right: 15px;
+
+}
+
+/*  LINHA DA BORDA */
+.cont2 {
+    border: 1px solid #667085;
+    border-radius: 16px;
+    
+    padding-left: 30px;
+    padding-right: 320px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-bottom: 30px;
+}
+
+/*  NOME DA VAGA */
+.titulo-vag2, .titulo-vag3 {
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    
+    padding-bottom: 25px;
+
 }
