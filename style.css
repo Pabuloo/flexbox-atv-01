@@ -15,7 +15,7 @@
 }
 
 body{
-    background: #E5E5E5;
+    background: white;
     flex: wrap;
     display: block;
     flex-direction: column;
@@ -153,10 +153,13 @@ li{
 
 .container-metricas {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
     padding-bottom: 80px;
+    
+    margin-left: 10%;
+    margin-right: 10%;
     
 }
 
@@ -198,7 +201,7 @@ li{
     min-height: 224px;
 
     max-width: 188.266px;
-    max-height: 354px;
+    max-height: 3px;
     justify-content: baseline;
 }
 
@@ -270,7 +273,7 @@ li{
     display: flex;
     justify-content: flex-start;
     align-self: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 29px;
 
     font-weight: 500;
     font-size: 20px;
@@ -336,6 +339,8 @@ li{
 .depoimentos-cont {
     display: flex;
 
+    margin-bottom: 50px;
+
     justify-content: center;
     padding: 20px 00px 20px 00px;
 }
@@ -371,6 +376,7 @@ li{
     font-size: 14px;
     line-height: 20px;
     color: #8E2424;
+    margin-bottom: 20px;
 
 }
 
@@ -378,7 +384,7 @@ li{
     font-weight: 500;
     font-size: 22px;
     font-weight: 10px;
-    line-height: 44px;
+    line-height: 24px;
     text-align: center;
 
 }
@@ -399,3 +405,67 @@ li{
     color: #667085;
 }
 
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F9FAFB;
+    padding:60px 0px 60px 0px ;
+}
+
+.formbt {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px #D0D5DD solid;
+    border-radius: 10px;
+    padding: 8px 100px 8px 6px;   
+}
+
+input::placeholder {
+    color: #667085;
+    padding-left: 8px;
+}
+
+.cadastra2 {
+    color: #FFFFFF;
+    align-items: center;
+
+    background-color: #8E2424;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px 10px 18px;
+    margin-left: 15px;
+
+}
+
+.formtxt1, .formtxt2, .formtxt3, .txtemail {
+    margin-bottom: 10px;
+}
+
+.formtxt1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color:#101828;
+}
+
+.formtxt2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+}
+
+.formtxt3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #98A2B3;
+}
