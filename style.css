@@ -330,7 +330,72 @@ li{
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    
     padding-bottom: 25px;
+}
+
+.depoimentos-cont {
+    display: flex;
+
+    justify-content: center;
+    padding: 20px 00px 20px 00px;
+}
+
+.imgcola {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 56px;
+    height: 56px;
+}
+
+.fundo-rose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 35px 70px 35px 70px;
+
+    justify-content: center;
+
+    width: 800px;
+    height: 260px;
+}
+
+.txtdepo01 {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8E2424;
 
 }
+
+.txtdepo02 {
+    font-weight: 500;
+    font-size: 22px;
+    font-weight: 10px;
+    line-height: 44px;
+    text-align: center;
+
+}
+
+.txtdepo01, .txtdepo01, .imgcola, .nomecola {
+    padding-top: 10px;
+}
+
+.nomecola {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828;
+}
+
+.funcola{
+    padding-top: 2px;
+    color: #667085;
+}
+
